@@ -353,34 +353,7 @@ void loop() {
     case '4':
    // pantalla("Trabajo");
    animacion_a_usar(4);
-    bleKeyboard.write(KEY_MEDIA_WWW_HOME);
-    delay(500);
-    bleKeyboard.print("make.powerapps.com");
-    bleKeyboard.write(KEY_NUM_ENTER);
-    delay(500);
-    bleKeyboard.press(KEY_LEFT_CTRL);
-    bleKeyboard.print("t");
-     delay(500);
-     bleKeyboard.releaseAll();
-     bleKeyboard.print("www.figma.com");
-    bleKeyboard.write(KEY_NUM_ENTER);
-    delay(500);
-     bleKeyboard.press(KEY_LEFT_CTRL);
-     bleKeyboard.print("t");
-     delay(500);
-     bleKeyboard.releaseAll();
-     bleKeyboard.print("loop.microsoft.com");
-     bleKeyboard.write(KEY_NUM_ENTER);
-    delay(500);
-      bleKeyboard.write(KEY_LEFT_GUI);
-      delay(500);
-      bleKeyboard.print("spotify");
-      delay(1000);
-      bleKeyboard.press(KEY_NUM_ENTER);
-      delay(1000);
-     bleKeyboard.releaseAll();
-      bleKeyboard.write(KEY_MEDIA_PLAY_PAUSE);
-     
+   
     break;
 
     case '5':
